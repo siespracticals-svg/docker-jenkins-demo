@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('#1. Checkout'){
     steps{
-      git url:"https://github.com/siespracticals-svg/docker-jenkins-demo/new/main",branch:"main"
+      git url:"https://github.com/siespracticals-svg/docker-jenkins-demo",branch:"main"
     }
   }
     stage('#2. Build the Image'){
